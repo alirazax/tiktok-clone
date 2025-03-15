@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TikTok Sign-Up</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/fa5135595c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class=" ">
+    <!--sign up first -->
+    <div
+      class="container mx-auto py-4 px-10 leading-tight w-full max-w-96 shadow-lg"
+    >
+      <p class="text-[44px] font-bold">Video to Make Your Day</p>
+      <div class="pt-80">
+        <i class="fa-brands text-[44px] fa-tiktok"></i>
+        <p class="font-extrabold">TikTok</p>
+      </div>
+    </div>
+    <div
+      class="bg-white px-8 py-4 container mx-auto rounded-2xl shadow-lg w-full max-w-96 text-center"
+    >
+      <div class="flex items-center justify-between pb-14">
+        <div class="">
+          <i
+            class="fa-regular text-xl text-gray-500 cursor-pointer fa-circle-question"
+          ></i>
+        </div>
+        <div class="">
+          <i class="fa-solid text-xl cursor-pointer text-gray-700 fa-xmark"></i>
+        </div>
+      </div>
+      <h1 class="text-3xl font-extrabold text-gray-900 mb-8">
+        Sign Up for TikTok
+      </h1>
+
+      <form class="mt-6 space-y-4">
+        <!--phone number-->
+
+        <div
+          class="flex items-center w-full text-left border border-gray-300 bg-gray-50 rounded-md overflow-hidden"
+        >
+          <!-- Country Code -->
+          <div
+            class="flex items-center px-3 text-gray-700 border-r border-gray-300 min-w-max whitespace-nowrap"
+          >
+            PK +92
+            <i class="fa-solid fa-chevron-down ml-2 text-gray-500"></i>
+          </div>
+          <!-- Input Field -->
+          <input
+            type="text"
+            id="phone"
+            class="flex-1 p-3 focus:outline-none bg-gray-50 focus:ring-blue-500"
+            placeholder="Phone number"
+          />
+        </div>
+
+        <!--continue button-->
+        <div class="">
+          <button
+            class="capitalize text-white rounded-md font bg-[#EC1254] hover:opacity-90 transition w-full py-3"
+          >
+            continue
+          </button>
+        </div>
+        <!--or line -->
+        <div class="flex items-center w-full">
+          <div class="flex-grow border-t border-gray-300"></div>
+          <span class="mx-2 text-gray-400 text-sm">or</span>
+          <div class="flex-grow border-t border-gray-300"></div>
+        </div>
+
+        <button
+          class="w-full flex items-center border rounded-md px-3 py-1 hover:bg-gray-100"
+        >
+          <span class="text-lg pl-2 pr-3">
+            <i class="fa-solid t fa-envelope"></i>
+          </span>
+          <span class="flex-1 text-center font-medium text-gray-700"
+            >Continue with Email</span
+          >
+        </button>
+        <button
+          class="rounded-md border w-full py-1 px-3 hover:bg-gray-100 flex items-center"
+        >
+          <span class="pl-2 text-xl pr-3"
+            ><i class="fa-brands text-[#0274FA] text- fa-facebook"></i
+          ></span>
+          <span class="text-center flex-1 font-medium text-gray-700"
+            >Continue with Facebook
+          </span>
+        </button>
+        <button
+          class="w-full flex items-center border border-gray-300 rounded-lg px-3 py-[2px] hover:bg-gray-100"
+        >
+          <img src="/google.png" alt="Google Icon" class="w-8 h-8 mr-3" />
+          <span class="font-medium text-gray-700 mx-auto"
+            >Continue with Google</span
+          >
+        </button>
+      </form>
+      <!--text-div-->
+      <div class="pt-20">
+        <p class="text-xs leading-relaxed text-gray-500">
+          By continuing an account located in
+          <span class="text-gray-900 font-medium">Pakistan</span> , you agree to
+          our
+          <span class="text-gray-900 font-medium">Terms of Service </span> and
+          acknowledge that you have read our
+          <span class="text-gray-900 font-medium">Privacy Policy. </span>
+        </p>
+      </div>
+      <footer class="py-4 bg-gray-100 -mx-8 mt-4 shadow-lg -mb-8">
+        <div class="text-center">
+          <p class="text-sm text-gray-700">
+            Already have an account?
+            <a href="#" class="font-semibold text-[#EC1254] hover:underline"
+              >Log in</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!--sign up page screen -->
+    <div class="container mx-auto max-w-96 px-8 py-4 mt-8 shadow-lg w-full">
+      <!--sighn up text-->
+      <div class="flex items-center justify-between pb-14">
+        <div class=""><i class="fa-solid text-xl fa-chevron-left"></i></div>
+        <div class="">
+          <p class="text-lg font-bold text-[#161622]">Sign Up</p>
+        </div>
+
+        <div class="">
+          <i
+            class="fa-regular text-xl text-gray-500 cursor-pointer fa-circle-question"
+          ></i>
+        </div>
+      </div>
+      <!--create password-->
+      <h1 class="text-xl font-bold text-[#161622]">Create password</h1>
+      <div class="flex items-center border-b justify-between mt-10">
+        <input
+          class="focus:outline-none w-full py-4"
+          type="password"
+          placeholder="P@ssword123"
+        />
+        <i class="fa-solid fa-eye-slash"></i>
+      </div>
+
+      <p class="text-xs text-[#161622] mt-2 font-medium">
+        Your password must be at least:
+      </p>
+      <div class="flex flex-col m space-y-px">
+        <div class="flex items-center space-x-2">
+          <i class="fa-regular text-[#4EB77B] text-xl fa-circle-check"></i>
+          <p class="text-[#161622] text-xs font-semibold">
+            8 characters (20 max )
+          </p>
+        </div>
+        <div class="flex items-center space-x-2">
+          <i class="fa-regular text-[#4EB77B] text-xl fa-circle-check"></i>
+          <p class="text-[#161622] text-xs font-semibold">
+            1 letter and 1 number
+          </p>
+        </div>
+        <div class="flex items-center space-x-2">
+          <i class="fa-regular text-[#4EB77B] text-xl fa-circle-check"></i>
+          <p class="text-[#161622] text-xs font-semibold">
+            1 special character ( Example: # ? ! $&@)
+          </p>
+        </div>
+      </div>
+      <hr class="border-[#25FDA0] border-2 rounded-full mt-4" />
+      <p class="text-xs mt-4 text-[#161622]">
+        Password strength: <strong class="text-[#161622]"> strong </strong>
+      </p>
+      <button
+        class="w-full flex items-center justify-center text-white py-4 text-[15px] rounded-sm mt-10 bg-[#EC1254] relative"
+      >
+        Next
+        <i
+          class="fa-solid fa-circle-notch absolute right-4 top-1/2 -translate-y-1/2"
+        ></i>
+      </button>
+    </div>
+    <!--create niickname screen  -->
+    <div class="container mx-auto px-8 max-w-96 w-full py-4 mt-8 shadow-lg">
+      <div class="flex items-center justify-between pb-14">
+        <p class="text-[#9A979A] text-[17px]">Skip</p>
+        <div class="">
+          <p class="text-lg font-bold text-[#161622]">Sign Up</p>
+        </div>
+
+        <div class="">
+          <i
+            class="fa-regular text-xl text-gray-500 cursor-pointer fa-circle-question"
+          ></i>
+        </div>
+      </div>
+      <h1 class="text-xl font-bold text-[#161622]">create nickname</h1>
+      <p class="text-[#9A979A] text-[15px] mt-4">
+        This can be anything you like and can be changed later. If you skip this
+        step, you will be automatically assigned a default nickname.
+      </p>
+      <div class="flex items-center mt-8 py-4 border-b border-[#908C95]">
+        <input
+          class="focus:outline-none border-l-2 border-[#EC1254]"
+          type="text"
+          placeholder="Add your nickname"
+        />
+      </div>
+      <p class="text-[#9A979A] text-[15px] mt-4">0/30</p>
+      <button
+        class="bg-[#F6F3F7] text-[#9A979A] text-[15px] rounded-md mt-10 w-full py-4"
+      >
+        Confirm
+      </button>
+    </div>
+  </body>
+</html>
